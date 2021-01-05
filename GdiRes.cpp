@@ -1,8 +1,12 @@
-#define _UNICODE
-#define UNICODE
-
 #pragma comment(lib, "user32.lib")
 #pragma comment(lib, "shlwapi.lib")
+
+#ifndef _UNICODE
+#define _UNICODE
+#endif
+#ifndef UNICODE
+#define UNICODE
+#endif
 
 #include <windows.h>
 #include <wchar.h>
