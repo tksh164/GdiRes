@@ -1,7 +1,5 @@
 # GdiRes
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/tksh164/GdiRes)
-
 This tool shows the count of handles to GUI objects in use by the specified process.
 
 ## Usage
